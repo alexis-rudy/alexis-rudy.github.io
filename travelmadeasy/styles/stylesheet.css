@@ -206,4 +206,112 @@ footer a{
 #instagram{
   width: 50px;
   height: 50px;
+  padding: 10px;
+}
+/*Pages css*/
+.pages_header{
+  font-family: 'Zen Antique', Helvetica, sans-serif;
+  background-color: white;
+  color: #275752;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px;
+}
+.pages_navbar {
+  overflow: hidden;
+  background-color: #212D40;
+  font-family: 'Zen Old Mincho', Helvetica, sans-serif;
+
+}
+
+/* Links inside the navbar */
+.pages_navbar a {
+  float: left;
+  font-size: 16px;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.pages_navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #b08968;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #212D40;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: whitesmoke;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #b08968;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.pages{
+  background-color: #b08968;
+}
+.ig-title{
+  text-align: center;
+  padding-top: 50px;
+  background-color: #b08968;
+}
+.p-content{
+  text-align: justify;
+  padding: 100px;
+  background-color: #b08968;
+  font-size: 'Zen Old Mincho', Helvetica, sans-serif;
+}
+.latest-post{
+  text-align: center;
+}
+.latest-post h3{
+  margin: 0;
+}
+.food_title{
+  font-size: 20px;
+  font-family: 'Zen Old Mincho', Helvetica, sans-serif;
+}
+.button{
+  margin: 15px;
 }
