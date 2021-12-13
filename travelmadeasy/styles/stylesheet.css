@@ -351,4 +351,16 @@ main{
 .ab-content a{
   color: whitesmoke;
 }
+/*loreview page*/
+#hero{
+  display: grid;
+  grid-template-columns: 100%;
+  margin-top: -100px;
+}
+#hero-img{
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  z-index: 0;
+}
 
